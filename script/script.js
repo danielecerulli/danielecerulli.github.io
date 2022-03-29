@@ -1,5 +1,5 @@
 const updateCountdown = () => {
-    const diff = new Date() - new Date(1991, 03, 13, 15, 30)
+    const diff = new Date() - new Date(1992, 02, 12, 14, 29)
 
     const years = Math.floor(diff / 31560000000);
     const days = Math.floor((diff % 31560000000) / 86400000);
